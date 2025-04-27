@@ -119,7 +119,6 @@ Data augmentation: Random Horizontal Flip, Random Rotation, Color Jitter.
 
 Model trained for 50 epochs with a CosineAnnealingLR learning rate scheduler.
 
-License
-Project developed for academic purposes only. 
-
 Best validation model checkpoint saved automatically.
+
+
