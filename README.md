@@ -1,5 +1,5 @@
-readme_text = """
-# Cloud Image Classification using Deep Residual Networks
+
+# Cloud Classification using Deep Residual Networks
 
 ## Project Description
 
@@ -43,7 +43,7 @@ To run this project, you need to have the following libraries installed. You can
 ```
 pip install torch torchvision scikit-learn matplotlib tqdm
 ````
-##Libraries required:
+## Libraries required:
 
 Python 3.7+
 
@@ -57,7 +57,7 @@ Matplotlib
 
 TQDM
 
-##How to Run
+## How to Run
 Clone this repository
 ```
 git clone https://github.com/your_username/your_repository.git
@@ -66,7 +66,7 @@ cd your_repository
 
 Make sure the dataset is downloaded and placed correctly as explained.
 
-Train the model by running the following:
+## Train the model by running the following:
 
 ```
 # Step 1: Mount Drive
@@ -113,7 +113,7 @@ predictions = the_predictor(model, list_of_image_paths, device)
 print(predictions)
 ```
 
-##Additional Notes
+## Additional Notes
 
 Data augmentation: Random Horizontal Flip, Random Rotation, Color Jitter.
 
